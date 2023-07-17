@@ -35,7 +35,6 @@ int main() {
             }
         }
     }
-    //sort(values, values + 2);
     greatestCommonDivisor = EuclideanAlgorithm(values[0],values[1]);
     cout << "The greatest common divisor is: " << greatestCommonDivisor;
 
