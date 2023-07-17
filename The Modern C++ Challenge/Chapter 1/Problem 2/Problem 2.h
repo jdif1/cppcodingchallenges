@@ -6,7 +6,7 @@ bool numberInRange[2] = {false, false};
 std:: string valueString[2];
 
 int EuclideanAlgorithm(int x, int y) {
-    //The Euclidian algorithm is the most efficient way to find the greatest common divisor
+    //The Euclidean algorithm is the most efficient way to find the greatest common divisor
     while (x != 0 && y != 0) {
 
         if (x > y) {
